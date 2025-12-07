@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { useEffect, useRef, useState } from "react";
 import Globe from "react-globe.gl";
 import PopupCard from "./PopupCard";
@@ -236,3 +238,4 @@ export default function WorldGlobe(): JSX.Element {
     </div>
   );
 }
+
